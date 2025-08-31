@@ -16,16 +16,16 @@ function Footer() {
           ideas to life .
         </p>
         <div className="flex gap-5 justify-self-start">
-          <a href="https://www.linkedin.com/in/raunak-singh-645312256/">
+          <a href="https://www.linkedin.com/in/raunak-singh-645312256/" target="_blank">
             <Instagram />
           </a>
-          <a href="https://www.linkedin.com/in/raunak-singh-645312256/">
+          <a href="https://www.linkedin.com/in/raunak-singh-645312256/" target="_blank">
             <Facebook />
           </a>
-          <a href="https://www.linkedin.com/in/raunak-singh-645312256/">
+          <a href="https://www.linkedin.com/in/raunak-singh-645312256/" target="_blank">
             <Linkedin />
           </a>
-          <a href="https://www.linkedin.com/in/raunak-singh-645312256/">
+          <a href="https://www.linkedin.com/in/raunak-singh-645312256/" target="_blank">
             <Twitter />
           </a>
         </div>

@@ -17,12 +17,12 @@ function Chefs() {
               <img
                 src={chef.image}
                 alt="profile1"
-                className="h-90 w-450 rounded-2xl object-center"
+                className="h-90 w-550 rounded-2xl object-center"
               />
             </div>
             <div className="flex flex-col gap-6 item-self-start">
               <p className="text-2xl font-bold">{chef.name}</p>
-              <p className="text-1xl font-normal">{chef.description}</p>
+              <p className="text-1xl font-normal text-justify">{chef.description}</p>
               <button className="px-3 py-1.5 rounded-tr-2xl rounded-bl-2xl bg-amber-600">
                 View All
               </button>

@@ -1,12 +1,11 @@
 import React from "react";
 import Home from "./components/Home";
-import AboutUs from "./components/AboutUs";
-import Special from "./components/Special";
+import Aboutus from "./components/Aboutus";
 import Contact from "./components/Contact";
-
 import Menu from "./components/Menu";
-import SignIn from "./components/SignIn";
 import Navbar from "./components/Navbar";
+import Signin from "./pages/Signin";
+import Register from "./pages/Register";
 
 import { Route, Routes, Router } from "react-router-dom";
 
@@ -16,14 +15,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<Home />} />
         <Route path="/home" element={<Home />} />
-
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/special" element={<Special />} />
+        <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   );

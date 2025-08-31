@@ -14,10 +14,7 @@ function Navbar() {
       val: "About Us",
       path: "/aboutus",
     },
-    {
-      val: "Special",
-      path: "/special",
-    },
+   
     {
       val: "Contact",
       path: "/contact",
@@ -43,8 +40,9 @@ function Navbar() {
         ))}
       </div>
 
-      <div>
-        <NavLink to="/signin">Sign In / Register</NavLink>
+      <div className="flex gap-5">
+        <NavLink to="/signin">Sign In </NavLink>
+        <NavLink to="/register">Register </NavLink>
       </div>
     </div>
   );
