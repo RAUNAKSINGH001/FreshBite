@@ -17,10 +17,11 @@ try {
      const parsedResult = registerSchema.safeParse(req.body);
     //  console.log(parsedResult);
    if (!parsedResult.success) {
-    console.log(parsedResult.error.issues[0].message)
+    console.log(parsedResult.error.issues)
       return res.status(400).json({
         msg: "Validation failed",
         errors: parsedResult.error.issues, // return Zod errors
+
       });
     }
     next();
