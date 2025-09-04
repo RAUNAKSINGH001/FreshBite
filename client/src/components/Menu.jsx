@@ -1,5 +1,6 @@
 import React from "react";
 import {useState , useEffect} from 'react';
+import Latest from "./Latest";
 const dishes = [
   {
     dishName: "Margherita Pizza",
@@ -51,7 +52,11 @@ function Menu() {
       <div className="w-full flex flex-col justify-center items-center pb-4">
         <p className="text-3xl font-extrabold text-amber-600 ">Menu</p>
         <div className="flex flex-col gap-3 mt-5 px-4 py-4 w-full ">
-          {
+         <Latest/>
+         
+         
+          {/* {
+
 dishes.map((dish,idx)=>
 (
    <div className=" w-full flex justify-between items-center bg-white/5 backdrop:backdrop-blur-2xl rounded-2xl px-5 py-2 border-2 border-amber-50 ">
@@ -61,10 +66,12 @@ dishes.map((dish,idx)=>
                <p>{dish.fullPrice}</p>
                <button className="px-4 py-2 rounded-2xl bg-amber-600" onClick={handleClick}>{added ? "Remove from Cart" : "Add to Cart"}</button>
             </div>
+          
           </div>
 )
 )
-          }
+          } */}
+         
          
         </div>
       </div>

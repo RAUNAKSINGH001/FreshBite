@@ -6,6 +6,7 @@ import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 import Signin from "./pages/Signin";
 import Register from "./pages/Register";
+import Cart from "./pages/Cart";
 
 import { Route, Routes, Router } from "react-router-dom";
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/cart" element={<Cart />} />
+
         <Route path="*" element={<Home />} />
       </Routes>
     </div>

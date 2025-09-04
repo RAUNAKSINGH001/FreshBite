@@ -19,6 +19,10 @@ function Navbar() {
       val: "Contact",
       path: "/contact",
     },
+    {
+val:"Cart",
+path:"/cart"
+    },
   ];
   return (
     <div className="bg-gray-950 rounded-2xl w-full px-5 py-3 mb-3 flex justify-between">
