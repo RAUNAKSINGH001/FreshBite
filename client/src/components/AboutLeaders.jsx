@@ -17,12 +17,12 @@ function AboutLeaders() {
           <div className='flex flex-col gap-3 rounded-2xl '>
             <img src={profile} alt="profile2" className='w-[300px] h-[400px] rounded-t-2xl' />
             <p className='text-2xl font-bold'>RAUNAK SINGH</p>
-            <p className='text-1xl font-semibold'>Founder and CEO</p>
+            <p className='text-1xl font-semibold'>Co-founder and CTO</p>
           </div>
          <div className='flex flex-col gap-3 rounded-2xl '>
             <img src={profile} alt="profile3" className='w-[300px] h-[400px] rounded-t-2xl' />
             <p className='text-2xl font-bold'>RAUNAK SINGH</p>
-            <p className='text-1xl font-semibold'>Founder and CEO</p>
+            <p className='text-1xl font-semibold'>Co-founder and CFO</p>
           </div>
           </div>
         </div>
